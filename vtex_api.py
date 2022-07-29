@@ -17,7 +17,7 @@ vtex_api_to_account_headers = {
 vtex_api_from_account_cookies = {}
 vtex_api_to_account_cookies = {}
 
-destination_whitelist = ["ssesandbox03","ssesandbox04","bravtexpetstore","cacaushowbr","bravtexeletrostore","bravtexgrocerystore","bravtexfashionb2b"]
+destination_whitelist = ["ssesandbox03","ssesandbox04","bravtexpetstore","bravtexeletrostore","bravtexgrocerystore","bravtexfashionb2b"]
 
 def read_api_as_JSON(cookies, headers, url, params=""):
     if (params != ""):
